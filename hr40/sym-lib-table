@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "hrXX_lib_sch")(type "KiCad")(uri "${KIPRJMOD}/../hrXX_lib_sch.kicad_sym")(options "")(descr ""))
+  (lib (name "adapter_2732_lib_sch")(type "KiCad")(uri "E:/OneDrive/Daten/KiCad Projekte/PET/Adapter 2732/adapter_2732/adapter_2732_lib_sch.kicad_sym")(options "")(descr ""))
+)

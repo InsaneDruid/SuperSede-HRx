@@ -1,0 +1,110 @@
+(footprint "MountingHole_1.25mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2mm, no annular")
+	(tags "mounting hole 2mm no annular")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "caa3545d-57ee-4631-bcd1-6b8b130bc31a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_1.25mm"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a59e75b8-3006-40d1-8920-988cfee6dacc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole_1.25mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "666666de-0ea0-4ead-bcae-f4962a979ced")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91c46fc6-17d4-4666-8d7d-aa79dee1210f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38d2e4fa-8845-43c0-9e60-34db2ab7d006")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "c15a0a28-7c50-4b77-bdeb-3e2bc8095dd7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.6 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b7ea788f-5be3-408b-acc2-2b9eec65c232")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed45c930-93f3-48b5-a100-573072c42cdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.25 1.25)
+		(drill 1.25)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "8c88b1dc-0946-49c0-b646-ddb3f1ff0766")
+	)
+)
